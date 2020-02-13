@@ -12,7 +12,7 @@
     <div class="wrapper">
         <div class="header">
             <h1>
-                Shining Stone<br />
+                Shining Stones<br />
                 Gems
             </h1>
         </div>
