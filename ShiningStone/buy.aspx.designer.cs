@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ShiningStone {
-    
-    
-    public partial class buy {
-        
+namespace ShiningStone
+{
+
+
+    public partial class buy
+    {
+
         /// <summary>
         /// Head1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlHead Head1;
-        
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// PanelOrder control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel PanelOrder;
-        
+
         /// <summary>
         /// LabelProductName control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LabelProductName;
-        
+
         /// <summary>
         /// TextBoxAddress1 control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxAddress1;
-        
+
         /// <summary>
         /// TextBoxAddress2 control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxAddress2;
-        
+
         /// <summary>
         /// TextBoxAddress3 control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxAddress3;
-        
+
         /// <summary>
         /// TextBoxAddress4 control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxAddress4;
-        
+
         /// <summary>
         /// DropDownListCountry control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownListCountry;
-        
+
         /// <summary>
         /// LinqDataSourceCountry control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinqDataSource LinqDataSourceCountry;
-        
+
         /// <summary>
         /// TextBoxPostCode control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxPostCode;
-        
+
         /// <summary>
         /// TextBoxPhoneNumber control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxPhoneNumber;
-        
+
         /// <summary>
         /// ButtonSubmitOrder control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace ShiningStone {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonSubmitOrder;
-        
+
         /// <summary>
         /// PanelOrderComplete control.
         /// </summary>
