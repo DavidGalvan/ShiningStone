@@ -40,7 +40,7 @@
                             </td>
                             <td>
                                 <asp:TextBox ID="TextBoxAddress1" runat="server" BackColor="#FFCCCC"></asp:TextBox>
-                                <asp:RequiredFieldValidator ID="RequiredFieldValidatorAddress1" runat="server" ControlToValidate="TextBoxAddress1" ErrorMessage="RequiredFieldValidator">*</asp:RequiredFieldValidator>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidatorAddress1" runat="server" ControlToValidate="TextBoxAddress1" ErrorMessage="Address 1 Required">*</asp:RequiredFieldValidator>
                             </td>
                         </tr>
                         <tr>
@@ -94,6 +94,7 @@
                             </td>
                             <td>
                                 <asp:TextBox ID="TextBoxPhoneNumber" runat="server" BackColor="#FFCCCC"></asp:TextBox>
+                                <asp:RangeValidator ID="RangeValidatorPhoneNumber" runat="server" ControlToValidate="TextBoxPhoneNumber" ErrorMessage="Invalid Phone Number" MaximumValue="999999" MinimumValue="0" Type="Integer">*</asp:RangeValidator>
                             </td>
                         </tr>
                         <tr>
@@ -103,6 +104,7 @@
                     </table>
                     <asp:Button ID="ButtonSubmitOrder" runat="server" Text="Submit Order" 
                         OnClick="ButtonSubmitOrder_Click" />
+                    <asp:ValidationSummary ID="ValidationSummaryBuy" runat="server" />
                 </asp:Panel>
                 <asp:Panel ID="PanelOrderComplete" runat="server" Visible="false">
                     <h4>
@@ -118,7 +120,7 @@
         </div>
         <div class="footer">
             Copyright &copy; 2011 The Smart Method.
-        </div>
+            </div>
     </div>
     </form>
 </body>

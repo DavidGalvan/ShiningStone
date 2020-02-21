@@ -132,6 +132,15 @@ namespace ShiningStone
         protected global::System.Web.UI.WebControls.TextBox TextBoxPhoneNumber;
 
         /// <summary>
+        /// RangeValidatorPhoneNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator RangeValidatorPhoneNumber;
+
+        /// <summary>
         /// ButtonSubmitOrder control.
         /// </summary>
         /// <remarks>
@@ -139,6 +148,15 @@ namespace ShiningStone
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonSubmitOrder;
+
+        /// <summary>
+        /// ValidationSummaryBuy control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummaryBuy;
 
         /// <summary>
         /// PanelOrderComplete control.
