@@ -60,6 +60,15 @@ namespace ShiningStone
         protected global::System.Web.UI.WebControls.TextBox TextBoxAddress1;
 
         /// <summary>
+        /// RequiredFieldValidatorAddress1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorAddress1;
+
+        /// <summary>
         /// TextBoxAddress2 control.
         /// </summary>
         /// <remarks>

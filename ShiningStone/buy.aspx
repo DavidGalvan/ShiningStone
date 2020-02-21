@@ -40,6 +40,7 @@
                             </td>
                             <td>
                                 <asp:TextBox ID="TextBoxAddress1" runat="server" BackColor="#FFCCCC"></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidatorAddress1" runat="server" ControlToValidate="TextBoxAddress1" ErrorMessage="RequiredFieldValidator">*</asp:RequiredFieldValidator>
                             </td>
                         </tr>
                         <tr>
@@ -47,7 +48,7 @@
                                 Address 2
                             </td>
                             <td>
-                                <asp:TextBox ID="TextBoxAddress2" runat="server" BackColor="#FFCCCC"></asp:TextBox>
+                                <asp:TextBox  ID="TextBoxAddress2" runat="server" BackColor="#FFCCCC"></asp:TextBox>
                             </td>
                         </tr>
                         <tr>

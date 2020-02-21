@@ -16,7 +16,10 @@ namespace ShiningStone
 
         protected void ButtonSubmitOrder_Click(object sender, EventArgs e)
         {
-
+            if (Page.IsValid)
+            {
+                Response.Write("OK");
+            }
         }
     }
 }
