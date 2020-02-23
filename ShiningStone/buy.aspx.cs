@@ -20,6 +20,9 @@ namespace ShiningStone
             {
                 Response.Write("OK");
             }
+
+            string Address1 = TextBoxAddress1.Text;
+            Response.Write(Address1);
         }
     }
 }
