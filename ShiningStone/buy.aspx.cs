@@ -11,6 +11,10 @@ namespace ShiningStone
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //string TestString = "Hello World";
+            //TestString = "Please Enter address";
+            //TextBoxAddress1.Text = TestString;
+
 
         }
 
@@ -21,6 +25,8 @@ namespace ShiningStone
                 Response.Write("OK");
             }
 
+            //string Address1 = TextBoxAddress1.Text;
+            //Response.Write(Address1);
             string Address1 = TextBoxAddress1.Text;
             Response.Write(Address1);
         }
