@@ -11,23 +11,15 @@ namespace ShiningStone
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+            int TestInt = 10;
+            TestInt = TestInt + 5;
+            TestInt = DropDownListCountry.SelectedIndex;
+            Response.Write(TestInt);
         }
 
         protected void ButtonSubmitOrder_Click(object sender, EventArgs e)
         {
-            if (Page.IsValid)
-            {
-                Response.Write("OK");
-            }
 
-            //string Address1 = TextBoxAddress1.Text;
-            //Response.Write(Address1);
-            string Address1 = TextBoxAddress1.Text;
-            Address1 = "<br />" + Address1;
-            Address1 = Address1.Replace(" ", "");
-            Response.Write(Address1.ToUpper());
-            Response.Write("(" + Address1.Length + ")");
         }
     }
 }
