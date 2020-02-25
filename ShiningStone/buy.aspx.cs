@@ -11,9 +11,9 @@ namespace ShiningStone
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            bool TestBool = true;
-            TestBool = !TestBool;
-            Response.Write(TestBool);
+            DateTime TestDateTime = DateTime.Now;
+            TestDateTime = TestDateTime.AddDays(3);
+            Response.Write(TestDateTime.ToShortDateString());
         }
 
         protected void ButtonSubmitOrder_Click(object sender, EventArgs e)
