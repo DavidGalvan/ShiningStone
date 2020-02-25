@@ -11,14 +11,16 @@ namespace ShiningStone
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            DateTime TestDateTime = DateTime.Now;
-            TestDateTime = TestDateTime.AddDays(3);
-            Response.Write(TestDateTime.ToShortDateString());
+           
         }
 
         protected void ButtonSubmitOrder_Click(object sender, EventArgs e)
         {
-
+            string PhoneNumberText = TextBoxPhoneNumber.Text;
+            //int PhoneNumber = Convert.ToInt32(PhoneNumberText);
+            int PhoneNumber = int.Parse(PhoneNumberText);
+            //float PhoneNumberFloat = Convert.ToSingle(PhoneNumber);
+            float PhoneNumberFloat = float.Parse(PhoneNumberText);
         }
     }
 }
