@@ -11,10 +11,10 @@ namespace ShiningStone
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            int TestInt = 10;
-            TestInt = TestInt + 5;
-            TestInt = DropDownListCountry.SelectedIndex;
-            Response.Write(TestInt);
+            //double TestDouble = 3.14159;
+            //Response.Write(TestDouble * 3.14159);
+            decimal TestDecimal = 3.14159m;
+            Response.Write(TestDecimal * 3.14159m);
         }
 
         protected void ButtonSubmitOrder_Click(object sender, EventArgs e)
