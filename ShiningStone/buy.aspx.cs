@@ -11,7 +11,11 @@ namespace ShiningStone
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+           //DateTime TodaysDate = DateTime.Now;
+           //string FormattedDate = TodaysDate.ToString("MM/dd/yyyy");
+           //Response.Write(FormattedDate);
+           decimal DecimalNumber = (decimal)100.75;
+           float FloatNumber = (float) DecimalNumber;
         }
 
         protected void ButtonSubmitOrder_Click(object sender, EventArgs e)
@@ -21,6 +25,7 @@ namespace ShiningStone
             int PhoneNumber = int.Parse(PhoneNumberText);
             //float PhoneNumberFloat = Convert.ToSingle(PhoneNumber);
             float PhoneNumberFloat = float.Parse(PhoneNumberText);
+            string PhoneNumberText2 = PhoneNumber.ToString();
         }
     }
 }
