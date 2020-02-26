@@ -25,6 +25,23 @@ namespace ShiningStone
                     Response.Write("Validation Okay");
                 }
             }
+            else
+            {
+                Response.Write("You must accept the terms");
+            }
+            string SelectedCountry = DropDownListCountry.SelectedItem.Text;
+            if (SelectedCountry == "Canada")
+            {
+                Response.Write("We can not deliver to Canada");
+            }
+            else if (SelectedCountry == "United States")
+            {
+                Response.Write("Eligible for free delivery");
+            }
+            else
+            {
+                Response.Write("Standard delivery");
+            }
         }
     }
 }
