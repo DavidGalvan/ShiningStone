@@ -17,24 +17,17 @@ namespace ShiningStone
         protected void ButtonSubmitOrder_Click(object sender, EventArgs e)
         {
             bool AcceptedTerms = CheckBoxAcceptTerms.Checked;
-            if(AcceptedTerms == true)
-            {
-                Response.Write("Terms OK");
-                if(Page.IsValid)
-                {
-                    Response.Write("Validation Okay");
-                }
-            }
-            else
+            if(!AcceptedTerms == true || !Page.IsValid)
             {
                 Response.Write("You must accept the terms");
             }
+            
             string SelectedCountry = DropDownListCountry.SelectedItem.Text;
             if (SelectedCountry == "Canada")
             {
                 Response.Write("We can not deliver to Canada");
             }
-            else if (SelectedCountry == "United States")
+            else if (SelectedCountry == "United States" || SelectedCountry == "Mexico")
             {
                 Response.Write("Eligible for free delivery");
             }
