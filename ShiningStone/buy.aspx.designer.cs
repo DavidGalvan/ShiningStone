@@ -141,6 +141,15 @@ namespace ShiningStone
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidatorPhoneNumber;
 
         /// <summary>
+        /// CheckBoxAcceptTerms control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CheckBoxAcceptTerms;
+
+        /// <summary>
         /// ButtonSubmitOrder control.
         /// </summary>
         /// <remarks>

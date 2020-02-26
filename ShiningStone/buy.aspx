@@ -99,7 +99,8 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                &nbsp;</td>
+                                <asp:CheckBox ID="CheckBoxAcceptTerms" runat="server" Text="I accept the terms and conditions" />
+                            </td>
                         </tr>
                     </table>
                     <asp:Button ID="ButtonSubmitOrder" runat="server" Text="Submit Order" 

@@ -16,11 +16,15 @@ namespace ShiningStone
 
         protected void ButtonSubmitOrder_Click(object sender, EventArgs e)
         {
-            using (ShiningStoneDataContext Data = new ShiningStoneDataContext())
+            bool AcceptedTerms = CheckBoxAcceptTerms.Checked;
+            if(AcceptedTerms == true)
             {
-                Data.SubmitChanges();
+                Response.Write("Terms OK");
+                if(Page.IsValid)
+                {
+                    Response.Write("Validation Okay");
+                }
             }
-
         }
     }
 }
